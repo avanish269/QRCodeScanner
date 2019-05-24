@@ -12,6 +12,5 @@ function openQRCamera(node){
     qrcode.decode(r.result);
   };
   var v=node.files[0];
-  //v=v%100;
   r.readAsDataURL(v);
 }
