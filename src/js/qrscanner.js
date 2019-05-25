@@ -27,7 +27,7 @@ var app=new Vue({
   },
   methods:{
     formatName:function(name){
-      return name||'(unknown)';
+      return name || 'unknown';
     },
     selectCamera:function(camera){
       this.activeCameraId=camera.id;
