@@ -7,4 +7,4 @@ To see camera name
 
 Use this command to start local server in the directory. The command should be executed in the directory which contains the files to be hosted.
 
-Then go to [Home](localhost:8000/src/views). Then after allowing camera access reload the page.
+Then go to [link to page](localhost:8000/src/views). Then after allowing camera access reload the page.
