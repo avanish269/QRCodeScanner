@@ -38,6 +38,7 @@ var app=new Vue({
         var i=0;
         if(isMobile.Android() || isMobile.iOS()){
           i=1;
+          self.scanner.mirror=false;
         }
         self.activeCameraId=cameras[i].id;
         self.scanner.start(cameras[i]);
